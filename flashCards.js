@@ -1,11 +1,11 @@
 //simple array containing a bunch of objects with a question and answer property
 var questions = [
-    { q: "question1", a: "answer1" },
-    { q: "question2", a: "answer2" },
-    { q: "question3", a: "answer3" },
-    { q: "question4", a: "answer4" },
-    { q: "question5", a: "answer5" },
-    { q: "question6", a: "answer6" }
+    { q: "What JS data type always goes in quotes?", a: "string" },
+    { q: "What does it mean if a variable is undefined?", a: "It has not been assigned a value" },
+    { q: "An object contains ____:____ pairs to represent its properties", a: "key:value" },
+    { q: "If you used jQuery to target a div tag with the id of 'myDiv', how would you do it?", a: "$('#myDiv')" },
+    { q: "What will the outcome of 4 % 2 be?", a: "0--modulus represents the remainder after dividing the 2 numbers" },
+    { q: "Who is the Queen of the Universe?", a: "Jennifer Moen" }
 ];
 
 $(document).ready(function() {
@@ -36,5 +36,5 @@ $(document).ready(function() {
         });
 
     });
-
+ console.log(4%2);
 });
